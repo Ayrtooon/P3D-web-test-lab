@@ -1,36 +1,19 @@
-# Python environment with a requirements.txt
+# P3Delta web version - test lab
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jayvir29/requirements/HEAD)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jayvir29/P3D-web-test-lab/HEAD)
 
-A Binder-compatible repo with a `requirements.txt` file.
-
-Access this Binder at the following URL
-
-http://mybinder.org/v2/gh/binder-examples/requirements/master
+Welcome user to the P3Delta web test lab !
+You can find more information about the project here : 
+https://iboussaa.gitlabpages.inria.fr/partial-pole-placement-via-delay-action/P3d-Home.html
 
 ## Notes
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
 
-```
-pip install -r requirements.txt
-```
 
-The base Binder image contains no extra dependencies, so be as
-explicit as possible in defining the packages that you need. This includes
-specifying explicit versions wherever possible.
+This version is a laboratory test version, so it has many bugs, and is not intended to be used in a daily environment.
+P3Delta web version test lab is a Binder-compatible repo with a `requirements.txt` file.
+Access this Binder at the following URL
 
-If you do specify strict versions, it is important to do so for *all*
-your dependencies, not just direct dependencies.
-Strictly specifying only some dependencies is a recipe for environments
-breaking over time.
+https://mybinder.org/v2/gh/Jayvir29/P3D-web-test-lab/HEAD
 
-[pip-compile](https://github.com/jazzband/pip-tools/) is a handy
-tool for combining loosely specified dependencies with a fully frozen environment.
-You write a requirements.in with just the dependencies you need
-and pip-compile will generate a requirements.txt with all the strict packages and versions that would come from installing that package right now.
-That way, you only need to specify what you actually know you need,
-but you also get a snapshot of your environment.
 
-In this example we include the library `seaborn` which will be installed in
-the environment, and our notebook uses it to plot a figure.
+
