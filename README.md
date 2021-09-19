@@ -1,6 +1,6 @@
 # P3Delta web version - test lab
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ayrtooon/P3D-web-test-lab.git/tree/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tree/Ayrtooon/P3D-web-test-lab.git/master)
 
 Welcome user to the P3Delta web test lab !
 You can find more information about the project here : 
